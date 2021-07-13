@@ -5,7 +5,8 @@
 }
 
 body {
-    background:linear-gradient(to left, #7513a3,#4318b8);
+    /* background:linear-gradient(to left, #7513a3,#4318b8); */
+    background-color:#4318b8;
     font-family: Lato;
     color: #eee;
 }
@@ -26,21 +27,22 @@ body {
 }
 
 #container, .form{
-    margin: 1.5rem;
+    margin: 1.15rem;
 }
 
 .form img{
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 #checkButton{
   border: none;
   background-color: #eee;
   color: #222;
-  padding: .7rem;
+  padding: .5rem;
   border-radius: 5px;
   cursor: pointer;
 }
+
 #checkButton:hover {
     background-color:#936ff7;
     color: white;
@@ -55,4 +57,10 @@ body {
 .result{
     font-size: 1.2rem;
   
+}
+
+.remain{
+    font-size: 1.1rem;
+    margin-bottom: .1rem;
+    font: bold;
 }
